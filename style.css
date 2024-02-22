@@ -1,0 +1,263 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: black;
+  }
+
+  .bg-image {
+    background-image: url('https://static.wikia.nocookie.net/valorant/images/8/80/Valorant_Cover_Art.jpg/revision/latest?cb=20200311224515&path-prefix=es'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+   
+  }
+
+  header {
+    background-color: #111825;
+    position: relative;
+    z-index: 1;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .options a:hover {
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .options a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .logo {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .logo img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-left: 300px; /* Ajusta el valor según tus necesidades */
+    transition: transform 0.3s ease;
+  }
+
+  .logo img:hover {
+    transform: rotate(360deg);
+  }
+
+  #fondo-imagen {
+    background: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5aee65464000114a/62ee202299dab06ebd13de8d/1920x1080-KEY-ART_opt.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00000056;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+
+  #fondo-imagen:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+  }
+
+  main {
+    position: relative;
+    z-index: 0;
+    margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  #mapas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  #mapas .card {
+    width: 40rem;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #mapas .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #mapas .card-img-top {
+    transition: filter 0.5s ease;
+  }
+
+  #mapas .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    transition: opacity 0.5s ease;
+  }
+
+  #mapas .image-container:hover .card-img-top {
+    filter: brightness(1.2);
+  }
+
+  #mapas .image-container:hover .overlay {
+    opacity: 1;
+  }
+
+  #ascent-imagen {
+    background: url('./assets/images/ascentcalidad.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 4px black;
+}
+
+#split-imagen {
+  background: url('./assets/images/SPLIT.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+  text-shadow: 2px 2px 4px black;
+}
+
+#seleccion-agente {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  font-size: 3vw; /* Usa un porcentaje del ancho de la ventana para el tamaño de la fuente */
+  font-weight: bold;
+  border: 2px solid black;
+  margin: 10px auto; /* Asegúrate de que el margen automático esté en los lados para centrarlo */
+  transition: background-color 0.5s ease;
+  display: block; /* Cambiado a block para asegurar que ocupe todo el ancho disponible */
+  width: auto; /* Asegura que tome el ancho necesario y no más */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#seleccion-agente:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px black;
+  background-color: #aa2929b9;
+}
+
+#bodyguekko  {
+  background-image: url(./assets/images/guekko.jpg); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;} 
+
+
+
+#guekko-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#article-guekko {
+    width: 45%;
+}
+
+div[id^="video-heading"] {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Sombrero para el texto */
+    cursor: pointer;
+}
+
+div[id^="video-heading"]:hover {
+    color: #fff;
+    background-color: #001730; /* Cambia el fondo al pasar el ratón */
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111825; /* Cambia al color de fondo deseado, similar al de la navbar */
+  font-family: 'Press Start 2P', cursive; /* Estilo de letra gamer */
+}
+
+.footer a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white; /* Cambia al color de texto deseado, similar al de la navbar */
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #007bff; /* Cambia al color deseado al pasar el ratón, similar al de los enlaces de la navbar */
+}
+
+
+/* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+@media screen and (max-width: 768px) {
+  #seleccion-agente {
+      font-size: 5vw; /* Incrementa el tamaño de la fuente un poco para pantallas pequeñas */
+  }
+}
+
+/* Para pantallas muy grandes, puedes querer limitar el tamaño máximo de la fuente */
+@media screen and (min-width: 1200px) {
+  #seleccion-agente {
+      font-size: 36px; /* Vuelve a un tamaño fijo para pantallas grandes para evitar una fuente demasiado grande */
+  }
+}

@@ -170,13 +170,13 @@
   color: #ffffff;
   font-family: 'Press Start 2P', cursive;
   padding: 20px;
-  font-size: 3vw; /* Usa un porcentaje del ancho de la ventana para el tamaño de la fuente */
+  font-size: 3vw;
   font-weight: bold;
   border: 2px solid black;
-  margin: 10px auto; /* Asegúrate de que el margen automático esté en los lados para centrarlo */
+  margin: 10px auto; 
   transition: background-color 0.5s ease;
-  display: block; /* Cambiado a block para asegurar que ocupe todo el ancho disponible */
-  width: auto; /* Asegura que tome el ancho necesario y no más */
+  display: block; 
+  width: auto; 
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -215,13 +215,13 @@ div[id^="video-heading"] {
     font-weight: bold;
     margin-bottom: 10px;
     color: #ffffff;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); /* Sombrero para el texto */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
     cursor: pointer;
 }
 
 div[id^="video-heading"]:hover {
     color: #fff;
-    background-color: #001730; /* Cambia el fondo al pasar el ratón */
+    background-color: #001730; 
 }
 
 iframe {
@@ -232,32 +232,31 @@ iframe {
 .footer {
   text-align: center;
   padding: 10px;
-  background-color: #111825; /* Cambia al color de fondo deseado, similar al de la navbar */
-  font-family: 'Press Start 2P', cursive; /* Estilo de letra gamer */
-}
+  background-color: #111825;
+  font-family: 'Press Start 2P', cursive; }
 
 .footer a {
   margin: 0 15px;
   text-decoration: none;
-  color: white; /* Cambia al color de texto deseado, similar al de la navbar */
+  color: white; 
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #007bff; /* Cambia al color deseado al pasar el ratón, similar al de los enlaces de la navbar */
+  color: #007bff; 
 }
 
 
-/* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+
 @media screen and (max-width: 768px) {
   #seleccion-agente {
-      font-size: 5vw; /* Incrementa el tamaño de la fuente un poco para pantallas pequeñas */
+      font-size: 5vw;
   }
 }
 
-/* Para pantallas muy grandes, puedes querer limitar el tamaño máximo de la fuente */
+
 @media screen and (min-width: 1200px) {
   #seleccion-agente {
-      font-size: 36px; /* Vuelve a un tamaño fijo para pantallas grandes para evitar una fuente demasiado grande */
+      font-size: 36px; 
   }
 }
